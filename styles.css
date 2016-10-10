@@ -8,18 +8,27 @@ body{
 	background: purple;
 	padding-bottom: 30%;
 	float: left;
-	margin:1.66%;
+	margin:1.50%;
 	border-radius: 15%;
 	transition: background 0.8s;
 	-webkit-transition: background 0.8s;
 	-moz-transition: background 0.8s;
 }
-
 #container{
 	margin: 20px auto;
-	max-width: 600px;
+	width: 95%;
 	cursor: pointer;
 	cursor: hand;
+}
+
+.center{
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+p{
+
+	font-size: 0.8rem;
 }
 
 h1{
@@ -68,4 +77,16 @@ button{
 button:hover{
 	color: white;
 	background: steelblue;
+}
+@media screen and(max-width: 400px){
+	#colorDisplay{
+		font-size: 2rem;
+	}
+	h1{
+		font-size: 1.2rem;
+	}
+	button{
+		letter-spacing: normal;
+		font-size: 0.8rem;
+	}
 }

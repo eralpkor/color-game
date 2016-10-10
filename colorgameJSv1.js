@@ -8,15 +8,6 @@ var h1 = document.querySelector("h1");
 var resetButton = document.getElementById("reset");
 var easyBtn = document.querySelector("#easyBtn");
 var hardBtn = document.querySelector("#hardBtn");
-// var modeButtons = document.querySelectorAll(".mode");
-
-// for (var i = 0; i < modeButtons.length; i++) {
-// 	modeButtons[i].addEventListener("click", function(){
-// 		modeButtons[0].classList.remove("selected");
-// 		modeButtons[1].classList.remove("selected");
-// 		this.classList.add("selected");
-// 	});
-// }
 
 
 		// Easy mode selection
@@ -80,7 +71,7 @@ for (var i = 0; i < squares.length; i++) {
 	squares[i].addEventListener("click", function(){
 		// alert(this.style.background);
 		// grap color of clicked square
-		var clickedColor = this.style.background;
+		var clickedColor = this.style["background-color"];
 		// compare color of picledColor
 		if(clickedColor === pickedColor){
 			messageDisplay.textContent = "Correct!";
