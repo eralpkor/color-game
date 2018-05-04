@@ -1,6 +1,6 @@
 # Color Game
 
-![Color Game Screenshot](relative/colorGame.jpg?raw=true "Title")
+![Color Game Screenshot](rhttps://github.com/eralpkor/color-game/blob/master/colorGame.jpg?raw=true "Title")
 
 ## RBG Colors used
 
