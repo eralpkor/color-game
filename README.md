@@ -1,6 +1,6 @@
 # Color Game
 
-![Alt text](relative/colorGame.jpg?raw=true "Title")
+![Color Game Screenshot](relative/colorGame.jpg?raw=true "Title")
 
 ## RBG Colors used
 
